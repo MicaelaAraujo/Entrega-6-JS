@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Calculadora de Presupuesto 50-30-20</title>
+</head>
+<body>
+    <h1>Calculadora de Presupuesto 50-30-20</h1>
+    <form id="presupuestoForm">
+        <label for="ingresoTotal">Ingreso Total:</label>
+        <input type="number" id="ingresoTotal" required><br><br>
+
+        <button type="button" onclick="calcularPresupuesto()">Calcular</button>
+    </form>
+
+    <h2>Resultados:</h2>
+    <p>Gastos Necesarios: <span id="gastosNecesariosResultado"></span></p>
+    <p>Gastos Opcionales: <span id="gastosOpcionalesResultado"></span></p>
+    <p>Ahorro e Inversión: <span id="ahorroInversionResultado"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
